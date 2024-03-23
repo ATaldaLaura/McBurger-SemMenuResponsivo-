@@ -1,0 +1,296 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: red;
+}
+.imagempromocional img{
+    width: 100%;
+    height: auto;
+}
+.menu{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+    border: 3px solid white;
+}
+.menu li:hover {
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+#titulopromocao, #titulohamburgueres, #titulohamburguerespremium, #titulohamburgueresfrango, #titulocombos, #titulofritas, #titulobebidas, #titulomolhos{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px dotted white;
+}
+#promocao, #hamburgueresbloco1, #hamburgueresbloco2, #hamburgueresbloco3, #hamburgueresbloco4, #hamburgueresbloco5, #hamburgueresbloco6, #hamburgueresbloco7, #hamburgueresbloco8, #hamburgueresbloco9, #hamburgueresbloco10, #hamburgueresbloco11, #hamburgueresbloco12, #hamburgueresbloco13, #hamburgueresbloco14, #hamburgueresbloco15, #hamburgueresbloco16, #hamburgueresbloco17, #hamburgueresbloco18, #hamburgueresbloco19, #hamburgueresbloco20, #hamburguerespremiumbloco1, #hamburguerespremiumbloco2, #hamburguerespremiumbloco3, #hamburguerespremiumbloco4, #hamburgueresfrangobloco1, #hamburgueresfrangobloco2, #hamburgueresfrangobloco3, #hamburgueresfrangobloco4, #combosbloco1, #combosbloco2, #combosbloco3, #combosbloco4, #combosbloco5, #combosbloco6, #combosbloco7, #combosbloco8, #combosbloco9, #combosbloco10, #combosbloco11, #combosbloco12, #combosbloco13, #combosbloco14, #combosbloco15, #combosbloco16, #combosbloco17, #combosbloco18, #fritasbloco1, #fritasbloco2, #bebidasbloco1, #bebidasbloco2, #bebidasbloco3, #bebidasbloco4, #bebidasbloco5, #bebidasbloco6, #molhosbloco1, #molhosbloco2, #molhosbloco3, #molhosbloco4{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px 2px;
+    width: 100%;
+    height: 500px;
+}
+.promocao, .hamburgueres, .hamburguerespremium, .hamburgueresfrango, .combos, .fritas, .bebidas, .molhos{
+    background-color: white;
+    margin: 2px 2px;
+    width: 490px;
+    height: 420px;
+    border-radius: 10px;
+}
+.combos{
+    width: 550px;
+    height: 410px;
+}
+.fotoproduto{
+    width: 365px;
+    height: 260px;
+    border-radius: 10px;
+}
+.promocaoitem1h1, .promocaoitem2h1, .promocaoitem1p, .promocaoitem2p, .hamburgueresitem1h1, .hamburgueresitem1p, .hamburgueresitem2h1, .hamburgueresitem2p, .hamburgueresitem1h2, .hamburgueresitem2h2, .hamburgueresitem1a, .hamburgueresitem2a, .hamburgueresitem3a, .hamburgueresitem3h1, .hamburgueresitem3p, .hamburgueresitem3h2, .hamburgueresitem4a, .hamburgueresitem4h1, .hamburgueresitem4p, .hamburgueresitem4h2, .hamburgueresitem5a, .hamburgueresitem5h1, .hamburgueresitem5p, .hamburgueresitem5h2, .hamburgueresitem6a, .hamburgueresitem6h1, .hamburgueresitem6p, .hamburgueresitem6h2, .hamburgueresitem7a, .hamburgueresitem7h1, .hamburgueresitem7p, .hamburgueresitem7h2, .hamburgueresitem8a, .hamburgueresitem8h1, .hamburgueresitem8p, .hamburgueresitem8h2, .hamburgueresitem9a, .hamburgueresitem9h1, .hamburgueresitem9p, .hamburgueresitem9h2, .hamburgueresitem10a, .hamburgueresitem10h1, .hamburgueresitem10p, .hamburgueresitem10h2, .hamburgueresitem11a, .hamburgueresitem11h1, .hamburgueresitem11p, .hamburgueresitem11h2, .hamburgueresitem12a, .hamburgueresitem12h1, .hamburgueresitem12p, .hamburgueresitem12h2, .hamburgueresitem13a, .hamburgueresitem13h1, .hamburgueresitem13p, .hamburgueresitem13h2, .hamburgueresitem14a, .hamburgueresitem14h1, .hamburgueresitem14p, .hamburgueresitem14h2, .hamburgueresitem15a, .hamburgueresitem15h1, .hamburgueresitem15p, .hamburgueresitem15h2, .hamburgueresitem16a, .hamburgueresitem16h1, .hamburgueresitem16p, .hamburgueresitem16h2, .hamburgueresitem17a, .hamburgueresitem17h1, .hamburgueresitem17p, .hamburgueresitem17h2, .hamburgueresitem18a, .hamburgueresitem18h1, .hamburgueresitem18p, .hamburgueresitem18h2, .hamburgueresitem19a, .hamburgueresitem19h1, .hamburgueresitem19p, .hamburgueresitem19h2, .hamburgueresitem20a, .hamburgueresitem20h1, .hamburgueresitem20p, .hamburgueresitem20h2, .hamburgueresitem21a, .hamburgueresitem21h1, .hamburgueresitem21p, .hamburgueresitem21h2, .hamburgueresitem22a, .hamburgueresitem22h1, .hamburgueresitem22p, .hamburgueresitem22h2, .hamburgueresitem23a, .hamburgueresitem23h1, .hamburgueresitem23p, .hamburgueresitem23h2, .hamburgueresitem24a, .hamburgueresitem24h1, .hamburgueresitem24p, .hamburgueresitem24h2, .hamburgueresitem25a, .hamburgueresitem25h1, .hamburgueresitem25p, .hamburgueresitem25h2, .hamburgueresitem26a, .hamburgueresitem26h1, .hamburgueresitem26p, .hamburgueresitem26h2, .hamburgueresitem27a, .hamburgueresitem27h1, .hamburgueresitem27p, .hamburgueresitem27h2, .hamburgueresitem28a, .hamburgueresitem28h1, .hamburgueresitem28p, .hamburgueresitem28h2, .hamburgueresitem29a, .hamburgueresitem29h1, .hamburgueresitem29p, .hamburgueresitem29h2, .hamburgueresitem30a, .hamburgueresitem30h1, .hamburgueresitem30p, .hamburgueresitem30h2, .hamburgueresitem31a, .hamburgueresitem31h1, .hamburgueresitem31p, .hamburgueresitem31h2, .hamburgueresitem32a, .hamburgueresitem32h1, .hamburgueresitem32p, .hamburgueresitem32h2, .hamburgueresitem33a, .hamburgueresitem33h1, .hamburgueresitem33p, .hamburgueresitem33h2, .hamburgueresitem34a, .hamburgueresitem34h1, .hamburgueresitem34p, .hamburgueresitem34h2, .hamburgueresitem35a, .hamburgueresitem35h1, .hamburgueresitem35p, .hamburgueresitem35h2, .hamburgueresitem36a, .hamburgueresitem36h1, .hamburgueresitem36p, .hamburgueresitem36h2, .hamburgueresitem37a, .hamburgueresitem37h1, .hamburgueresitem37p, .hamburgueresitem37h2, .hamburgueresitem38a, .hamburgueresitem38h1, .hamburgueresitem38p, .hamburgueresitem38h2, .hamburgueresitem39a, .hamburgueresitem39h1, .hamburgueresitem39p, .hamburgueresitem39h2, .hamburgueresitem40a, .hamburgueresitem40h1, .hamburgueresitem40p, .hamburgueresitem40h2, .hamburgueresitem41a, .hamburgueresitem41h1, .hamburgueresitem41p, .hamburgueresitem41h2, .hamburgueresitem42a, .hamburgueresitem42h1, .hamburgueresitem42p, .hamburgueresitem42h2, .hamburguerespremiumitem1h1, .hamburguerespremiumitem1p, .hamburguerespremiumitem2h1, .hamburguerespremiumitem2p, .hamburguerespremiumitem1h2, .hamburguerespremiumitem2h2, .hamburguerespremiumitem1a, .hamburguerespremiumitem2a, .hamburguerespremiumitem3a, .hamburguerespremiumitem3h1, .hamburguerespremiumitem3p, .hamburguerespremiumitem3h2, .hamburguerespremiumitem4a, .hamburguerespremiumitem4h1, .hamburguerespremiumitem4p, .hamburguerespremiumitem4h2, .hamburguerespremiumitem5a, .hamburguerespremiumitem5h1, .hamburguerespremiumitem5p, .hamburguerespremiumitem5h2, .hamburguerespremiumitem6a, .hamburguerespremiumitem6h1, .hamburguerespremiumitem6p, .hamburguerespremiumitem6h2, .hamburguerespremiumitem7a, .hamburguerespremiumitem7h1, .hamburguerespremiumitem7p, .hamburguerespremiumitem7h2, .hamburgueresfrangoitem1h1, .hamburgueresfrangoitem1p, .hamburgueresfrangoitem2h1, .hamburgueresfrangoitem2p, .hamburgueresfrangoitem1h2, .hamburgueresfrangoitem2h2, .hamburgueresfrangoitem1a, .hamburgueresfrangoitem2a, .hamburgueresfrangoitem3a, .hamburgueresfrangoitem3h1, .hamburgueresfrangoitem3p, .hamburgueresfrangoitem3h2, .hamburgueresfrangoitem4a, .hamburgueresfrangoitem4h1, .hamburgueresfrangoitem4p, .hamburgueresfrangoitem4h2, .hamburgueresfrangoitem5a, .hamburgueresfrangoitem5h1, .hamburgueresfrangoitem5p, .hamburgueresfrangoitem5h2, .hamburgueresfrangoitem6a, .hamburgueresfrangoitem6h1, .hamburgueresfrangoitem6p, .hamburgueresfrangoitem6h2, .hamburgueresfrangoitem7a, .hamburgueresfrangoitem7h1, .hamburgueresfrangoitem7p, .hamburgueresfrangoitem7h2, .combositem1h1, .combositem1p, .combositem2h1, .combositem2p, .combositem1h2, .combositem2h2, .combositem1a, .combositem2a, .combositem3a, .combositem3h1, .combositem3p, .combositem3h2, .combositem4a, .combositem4h1, .combositem4p, .combositem4h2, .combositem5a, .combositem5h1, .combositem5p, .combositem5h2, .combositem6a, .combositem6h1, .combositem6p, .combositem6h2, .combositem7a, .combositem7h1, .combositem7p, .combositem7h2, .combositem8a, .combositem8h1, .combositem8p, .combositem8h2, .combositem9a, .combositem9h1, .combositem9p, .combositem9h2, .combositem10a, .combositem10h1, .combositem10p, .combositem10h2, .combositem11a, .combositem11h1, .combositem11p, .combositem11h2, .combositem12a, .combositem12h1, .combositem12p, .combositem12h2, .combositem13a, .combositem13h1, .combositem13p, .combositem13h2, .combositem14a, .combositem14h1, .combositem14p, .combositem14h2, .combositem15a, .combositem15h1, .combositem15p, .combositem15h2, .combositem16a, .combositem16h1, .combositem16p, .combositem16h2, .combositem17a, .combositem17h1, .combositem17p, .combositem17h2, .combositem18a, .combositem18h1, .combositem18p, .combositem18h2, .combositem19a, .combositem19h1, .combositem19p, .combositem19h2, .combositem20a, .combositem20h1, .combositem20p, .combositem20h2, .combositem21a, .combositem21h1, .combositem21p, .combositem21h2, .combositem22a, .combositem22h1, .combositem22p, .combositem22h2, .combositem23a, .combositem23h1, .combositem23p, .combositem23h2, .combositem24a, .combositem24h1, .combositem24p, .combositem24h2, .combositem25a, .combositem25h1, .combositem25p, .combositem25h2, .combositem26a, .combositem26h1, .combositem26p, .combositem26h2, .combositem27a, .combositem27h1, .combositem27p, .combositem27h2, .combositem28a, .combositem28h1, .combositem28p, .combositem28h2, .combositem29a, .combositem29h1, .combositem29p, .combositem29h2, .combositem30a, .combositem30h1, .combositem30p, .combositem30h2, .combositem31a, .combositem31h1, .combositem31p, .combositem31h2, .combositem32a, .combositem32h1, .combositem32p, .combositem32h2, .combositem33a, .combositem33h1, .combositem33p, .combositem33h2, .combositem34a, .combositem34h1, .combositem34p, .combositem34h2, .combositem35a, .combositem35h1, .combositem35p, .combositem35h2, .combositem36a, .combositem36h1, .combositem36p, .combositem36h2, .combositem37a, .combositem37h1, .combositem37p, .combositem37h2, .combositem38a, .combositem38h1, .combositem38p, .combositem38h2, .fritasitem1h1, .fritasitem1p, .fritasitem2h1, .fritasitem2p, .fritasitem1h2, .fritasitem2h2, .fritasitem1a, .fritasitem2a, .fritasitem3a, .fritasitem3h1, .fritasitem3p, .fritasitem3h2, .bebidasitem1h1, .bebidasitem1p, .bebidasitem2h1, .bebidasitem2p, .bebidasitem1h2, .bebidasitem2h2, .bebidasitem1a, .bebidasitem2a, .bebidasitem3a, .bebidasitem3h1, .bebidasitem3p, .bebidasitem3h2, .bebidasitem4a, .bebidasitem4h1, .bebidasitem4p, .bebidasitem4h2, .bebidasitem5a, .bebidasitem5h1, .bebidasitem5p, .bebidasitem5h2, .bebidasitem6a, .bebidasitem6h1, .bebidasitem6p, .bebidasitem6h2, .bebidasitem7a, .bebidasitem7h1, .bebidasitem7p, .bebidasitem7h2, .bebidasitem8a, .bebidasitem8h1, .bebidasitem8p, .bebidasitem8h2, .bebidasitem9a, .bebidasitem9h1, .bebidasitem9p, .bebidasitem9h2, .bebidasitem10a, .bebidasitem10h1, .bebidasitem10p, .bebidasitem10h2, .bebidasitem11a, .bebidasitem11h1, .bebidasitem11p, .bebidasitem11h2, .molhositem1h1, .molhositem1p, .molhositem2h1, .molhositem2p, .molhositem1h2, .molhositem2h2, .molhositem1a, .molhositem2a, .molhositem3a, .molhositem3h1, .molhositem3p, .molhositem3h2, .molhositem4a, .molhositem4h1, .molhositem4p, .molhositem4h2, .molhositem5a, .molhositem5h1, .molhositem5p, .molhositem5h2, .molhositem6a, .molhositem6h1, .molhositem6p, .molhositem6h2, .molhositem7a, .molhositem7h1, .molhositem7p, .molhositem7h2, .molhositem8a, .molhositem8h1, .molhositem8p, .molhositem8h2{
+    display: flex;
+    justify-content: center;
+    margin: 3px 0px;
+    text-align: center;
+}
+#hamburgueresitem1h1, #hamburgueresitem2h1, #hamburgueresitem3h1, #hamburgueresitem4h1, #hamburgueresitem5h1, #hamburgueresitem6h1, #hamburgueresitem7h1, #hamburgueresitem8h1, #hamburgueresitem9h1, #hamburgueresitem10h1, #hamburgueresitem11h1, #hamburgueresitem12h1, #hamburgueresitem13h1, #hamburgueresitem14h1, #hamburgueresitem15h1, #hamburgueresitem16h1, #hamburgueresitem17h1, #hamburgueresitem18h1, #hamburgueresitem19h1, #hamburgueresitem20h1, #hamburgueresitem21h1, #hamburgueresitem22h1, #hamburgueresitem23h1, #hamburgueresitem24h1, #hamburgueresitem25h1, #hamburgueresitem26h1, #hamburgueresitem27h1, #hamburgueresitem28h1, #hamburgueresitem29h1, #hamburgueresitem30h1, #hamburgueresitem31h1, #hamburgueresitem32h1, #hamburgueresitem33h1, #hamburgueresitem34h1, #hamburgueresitem35h1, #hamburgueresitem36h1, #hamburgueresitem37h1, #hamburgueresitem38h1, #hamburgueresitem39h1, #hamburgueresitem40h1, #hamburgueresitem41h1, #hamburgueresitem42h1, #hamburguerespremiumitem1h1, #hamburguerespremiumitem2h1, #hamburguerespremiumitem3h1, #hamburguerespremiumitem4h1, #hamburguerespremiumitem5h1, #hamburguerespremiumitem6h1, #hamburguerespremiumitem7h1, #hamburguerespremiumitem1h1, #hamburguerespremiumitem2h1, #hamburguerespremiumitem3h1, #hamburguerespremiumitem4h1, #hamburguerespremiumitem5h1, #hamburguerespremiumitem6h1, #hamburguerespremiumitem7h1, #bebidasitem1h1, #bebidasitem2h1, #bebidasitem3h1, #bebidasitem4h1, #bebidasitem5h1, #bebidasitem6h1, #bebidasitem7h1, #bebidasitem8h1, #bebidasitem9h1, #bebidasitem10h1, #bebidasitem11h1, #molhositem1h1, #molhositem2h1, #molhositem3h1, #molhositem4h1, #molhositem5h1, #molhositem6h1, #molhositem7h1, #molhositem8h1{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#combositem1h1, #combositem2h1, #combositem3h1, #combositem4h1, #combositem5h1, #combositem6h1, #combositem7h1, #combositem8h1, #combositem9h1, #combositem10h1, #combositem11h1, #combositem12h1, #combositem13h1, #combositem14h1, #combositem15h1, #combositem16h1, #combositem17h1, #combositem18h1, #combositem19h1, #combositem20h1, #combositem21h1, #combositem22h1, #combositem23h1, #combositem24h1, #combositem25h1, #combositem26h1, #combositem27h1, #combositem28h1, #combositem29h1, #combositem30h1, #combositem31h1, #combositem32h1, #combositem33h1, #combositem34h1, #combositem35h1, #combositem36h1, #combositem37h1, #combositem38h1{
+    font-size: 24px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#combositem1p, #combositem2p, #combositem3p, #combositem4p, #combositem5p, #combositem6p, #combositem7p, #combositem8p, #combositem9p, #combositem10p, #combositem11p, #combositem12p, #combositem13p, #combositem14p, #combositem15p, #combositem16p, #combositem17p, #combositem18p, #combositem19p, #combositem20p, #combositem21p, #combositem22p, #combositem23p, #combositem24p, #combositem25p, #combositem26p, #combositem27p, #combositem28p, #combositem29p, #combositem30p, #combositem31p, #combositem32p, #combositem33p, #combositem34p, #combositem35p, #combositem36p, #combositem37p, #combositem38p{
+    font-size: 5px;
+}
+#combositem23h1, #combositem27h1, #combositem29h1, #combositem30h1, #combositem31h1, #combositem36h1{
+    font-size: 22px;
+}
+#hamburgueresitem29h1{
+    font-size: 23px;
+}
+#hamburgueresitem31h1{
+    font-size: 22.4px;
+}
+#hamburgueresitem27h1{
+    font-size: 21px;
+}
+#hamburgueresitem28h1{
+    font-size: 21px;
+}
+#hamburgueresitem30h1{
+    font-size: 23px;
+}
+
+#hamburgueresitem1h2, #hamburgueresitem2h2, #hamburgueresitem3h2, #hamburgueresitem4h2, #hamburgueresitem5h2, #hamburgueresitem6h2, #hamburgueresitem7h2, #hamburgueresitem8h2, #hamburgueresitem9h2, #hamburgueresitem10h2, #hamburgueresitem11h2, #hamburgueresitem12h2, #hamburgueresitem13h2, #hamburgueresitem14h2, #hamburgueresitem15h2, #hamburgueresitem16h2, #hamburgueresitem17h2, #hamburgueresitem18h2, #hamburgueresitem19h2, #hamburgueresitem20h2, #hamburgueresitem21h2, #hamburgueresitem22h2, #hamburgueresitem23h2, #hamburgueresitem24h2, #hamburgueresitem25h2, #hamburgueresitem26h2, #hamburgueresitem27h2, #hamburgueresitem28h2, #hamburgueresitem29h2, #hamburgueresitem30h2, #hamburgueresitem31h2, #hamburgueresitem32h2, #hamburgueresitem33h2, #hamburgueresitem34h2, #hamburgueresitem35h2, #hamburgueresitem36h2, #hamburgueresitem37h2, #hamburgueresitem38h2, #hamburgueresitem39h2, #hamburgueresitem40h2, #hamburgueresitem41h2, #hamburgueresitem42h2, #hamburgueresfrangoitem1h2, #hamburgueresfrangoitem2h2, #hamburgueresfrangoitem3h2, #hamburgueresfrangoitem4h2, #hamburgueresfrangoitem5h2, #hamburgueresfrangoitem6h2, #hamburgueresfrangoitem7h2, #fritasitem1h2, #fritasitem2h2, #fritasitem3h2, #bebidasitem1h2, #bebidasitem2h2, #bebidasitem3h2, #bebidasitem4h2, #bebidasitem5h2, #bebidasitem6h2, #bebidasitem7h2, #bebidasitem8h2, #bebidasitem9h2, #bebidasitem10h2, #bebidasitem11h2, #molhositem1h2, #molhositem2h2, #molhositem3h2, #molhositem4h2, #molhositem5h2, #molhositem6h2, #molhositem7h2, #molhositem8h2{
+    font-size: 22px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#combositem1h2, #combositem2h2, #combositem3h2, #combositem4h2, #combositem5h2, #combositem6h2, #combositem7h2, #combositem8h2, #combositem9h2, #combositem10h2, #combositem11h2, #combositem12h2, #combositem13h2, #combositem14h2, #combositem15h2, #combositem16h2, #combositem17h2, #combositem18h2, #combositem19h2, #combositem20h2, #combositem21h2, #combositem22h2, #combositem23h2, #combositem24h2, #combositem25h2, #combositem26h2, #combositem27h2, #combositem28h2, #combositem29h2, #combositem30h2, #combositem31h2, #combositem32h2, #combositem33h2, #combositem34h2, #combositem35h2, #combositem36h2, #combositem37h2, #combositem38h2{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hamburgueresitem1a, #hamburgueresitem2a,#hamburgueresitem3a,#hamburgueresitem4a, #hamburgueresitem5a, #hamburgueresitem6a, #hamburgueresitem7a, #hamburgueresitem8a, #hamburgueresitem9a, #hamburgueresitem10a, #hamburgueresitem11a, #hamburgueresitem12a, #hamburgueresitem13a, #hamburgueresitem14a, #hamburgueresitem15a, #hamburgueresitem16a, #hamburgueresitem17a, #hamburgueresitem18a, #hamburgueresitem19a, #hamburgueresitem20a, #hamburgueresitem21a, #hamburgueresitem22a, #hamburgueresitem23a, #hamburgueresitem24a, #hamburgueresitem25a, #hamburgueresitem26a, #hamburgueresitem27a, #hamburgueresitem28a, #hamburgueresitem29a, #hamburgueresitem30a, #hamburgueresitem31a, #hamburgueresitem32a, #hamburgueresitem33a, #hamburgueresitem34a, #hamburgueresitem35a, #hamburgueresitem36a, #hamburgueresitem37a, #hamburgueresitem38a, #hamburgueresitem39a, #hamburgueresitem40a, #hamburgueresitem41a, #hamburgueresitem42a, #hamburguerespremiumitem1a, #hamburguerespremiumitem2a,#hamburguerespremiumitem3a,#hamburguerespremiumitem4a, #hamburguerespremiumitem5a, #hamburguerespremiumitem6a, #hamburguerespremiumitem7a, #hamburgueresfrangoitem1a, #hamburgueresfrangoitem2a,#hamburgueresfrangoitem3a,#hamburgueresfrangoitem4a, #hamburgueresfrangoitem5a, #hamburgueresfrangoitem6a, #hamburgueresfrangoitem7a, #combositem1a, #combositem2a,#combositem3a,#combositem4a, #combositem5a, #combositem6a, #combositem7a, #combositem8a, #combositem9a, #combositem10a, #combositem11a, #combositem12a, #combositem13a, #combositem14a, #combositem15a, #combositem16a, #combositem17a, #combositem18a, #combositem19a, #combositem20a, #combositem21a, #combositem22a, #combositem23a, #combositem24a, #combositem25a, #combositem26a, #combositem27a, #combositem28a, #combositem29a, #combositem30a, #combositem31a, #combositem32a, #combositem33a, #combositem34a, #combositem35a, #combositem36a, #combositem37a, #combositem38a, #fritasitem1a, #fritasitem2a,#fritasitem3a, #bebidasitem1a, #bebidasitem2a,#bebidasitem3a,#bebidasitem4a, #bebidasitem5a, #bebidasitem6a, #bebidasitem7a, #bebidasitem8a, #bebidasitem9a, #bebidasitem10a, #bebidasitem11a, #molhositem1a, #molhositem2a,#molhositem3a,#molhositem4a, #molhositem5a, #molhositem6a, #molhositem7a, #molhositem8a{
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 85px;
+    height: 35px;
+    padding-top: 4px;
+    background-color: red;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#combositem1a, #combositem2a,#combositem3a,#combositem4a, #combositem5a, #combositem6a, #combositem7a, #combositem8a, #combositem9a, #combositem10a, #combositem11a, #combositem12a, #combositem13a, #combositem14a, #combositem15a, #combositem16a, #combositem17a, #combositem18a, #combositem19a, #combositem20a, #combositem21a, #combositem22a, #combositem23a, #combositem24a, #combositem25a, #combositem26a, #combositem27a, #combositem28a, #combositem29a, #combositem30a, #combositem31a, #combositem32a, #combositem33a, #combositem34a, #combositem35a, #combositem36a, #combositem37a, #combositem38a{
+    font-size: 18px;
+    width: 83px;
+    height: 33px;
+}
+#hamburgueresitem1a:hover, #hamburgueresitem2a:hover,#hamburgueresitem3a:hover,#hamburgueresitem4a:hover, #hamburgueresitem5a:hover, #hamburgueresitem6a:hover, #hamburgueresitem7a:hover, #hamburgueresitem8a:hover, #hamburgueresitem9a:hover, #hamburgueresitem10a:hover, #hamburgueresitem11a:hover, #hamburgueresitem12a:hover, #hamburgueresitem13a:hover, #hamburgueresitem14a:hover, #hamburgueresitem15a:hover, #hamburgueresitem16a:hover, #hamburgueresitem17a:hover, #hamburgueresitem18a:hover, #hamburgueresitem19a:hover, #hamburgueresitem20a:hover, #hamburgueresitem21a:hover, #hamburgueresitem22a:hover, #hamburgueresitem23a:hover, #hamburgueresitem24a:hover, #hamburgueresitem25a:hover, #hamburgueresitem26a:hover, #hamburgueresitem27a:hover, #hamburgueresitem28a:hover, #hamburgueresitem29a:hover, #hamburgueresitem30a:hover, #hamburgueresitem31a:hover, #hamburgueresitem32a:hover, #hamburgueresitem33a:hover, #hamburgueresitem34a:hover, #hamburgueresitem35a:hover, #hamburgueresitem36a:hover, #hamburgueresitem37a:hover, #hamburgueresitem38a:hover, #hamburgueresitem39a:hover, #hamburgueresitem40a:hover, #hamburgueresitem41a:hover, #hamburgueresitem42a:hover, #hamburguerespremiumitem1a:hover, #hamburguerespremiumitem2a:hover,#hamburguerespremiumitem3a:hover,#hamburguerespremiumitem4a:hover, #hamburguerespremiumitem5a:hover, #hamburguerespremiumitem6a:hover, #hamburguerespremiumitem7a:hover, #hamburgueresfrangoitem1a:hover, #hamburgueresfrangoitem2a:hover,#hamburgueresfrangoitem3a:hover,#hamburgueresfrangoitem4a:hover, #hamburgueresfrangoitem5a:hover, #hamburgueresfrangoitem6a:hover, #hamburgueresfrangoitem7a:hover, #combositem1a:hover, #combositem2a:hover,#combositem3a:hover,#combositem4a:hover, #combositem5a:hover, #combositem6a:hover, #combositem7a:hover, #combositem8a:hover, #combositem9a:hover, #combositem10a:hover, #combositem11a:hover, #combositem12a:hover, #combositem13a:hover, #combositem14a:hover, #combositem15a:hover, #combositem16a:hover, #combositem17a:hover, #combositem18a:hover, #combositem19a:hover, #combositem20a:hover, #combositem21a:hover, #combositem22a:hover, #combositem23a:hover, #combositem24a:hover, #combositem25a:hover, #combositem26a:hover, #combositem27a:hover, #combositem28a:hover, #combositem29a:hover, #combositem30a:hover, #combositem31a:hover, #combositem32a:hover, #combositem33a:hover, #combositem34a:hover, #combositem35a:hover, #combositem36a:hover, #combositem37a:hover, #combositem38a:hover, #fritasitem1a:hover, #fritasitem2a:hover,#fritasitem3a:hover, #bebidasitem1a:hover, #bebidasitem2a:hover,#bebidasitem3a:hover,#bebidasitem4a:hover, #bebidasitem5a:hover, #bebidasitem6a:hover, #bebidasitem7a:hover, #bebidasitem8a:hover, #bebidasitem9a:hover, #bebidasitem10a:hover, #bebidasitem11a:hover, #molhositem1a:hover, #molhositem2a:hover,#molhositem3a:hover,#molhositem4a:hover, #molhositem5a:hover, #molhositem6a:hover, #molhositem7a:hover, #molhositem8a:hover{
+    background-color: orange;
+}
+
+.promocaoitem1img, .promocaoitem2img, .hamburgueresitem1img, .hamburgueresitem2img, .hamburgueresitem3img, .hamburgueresitem4img, .hamburgueresitem5img, .hamburgueresitem6img, .hamburgueresitem7img, .hamburgueresitem8img, .hamburgueresitem9img, .hamburgueresitem10img, .hamburgueresitem11img, .hamburgueresitem12img, .hamburgueresitem13img, .hamburgueresitem14img, .hamburgueresitem15img, .hamburgueresitem16img, .hamburgueresitem17img, .hamburgueresitem18img, .hamburgueresitem19img, .hamburgueresitem20img, .hamburgueresitem21img, .hamburgueresitem22img, .hamburgueresitem23img, .hamburgueresitem24img, .hamburgueresitem25img, .hamburgueresitem26img, .hamburgueresitem27img, .hamburgueresitem28img, .hamburgueresitem29img, .hamburgueresitem30img, .hamburgueresitem31img, .hamburgueresitem32img, .hamburgueresitem33img, .hamburgueresitem34img, .hamburgueresitem35img, .hamburgueresitem36img, .hamburgueresitem37img, .hamburgueresitem38img, .hamburgueresitem39img, .hamburgueresitem40img, .hamburgueresitem41img, .hamburgueresitem42img, .hamburguerespremiumitem1img, .hamburguerespremiumitem2img, .hamburguerespremiumitem3img, .hamburguerespremiumitem4img, .hamburguerespremiumitem5img, .hamburguerespremiumitem6img, .hamburguerespremiumitem7img, .hamburgueresfrangoitem1img, .hamburgueresfrangoitem2img, .hamburgueresfrangoitem3img, .hamburgueresfrangoitem4img, .hamburgueresfrangoitem5img, .hamburgueresfrangoitem6img, .hamburgueresfrangoitem7img, .combositem1img, .combositem2img, .combositem3img, .combositem4img, .combositem5img, .combositem6img, .combositem7img, .combositem8img, .combositem9img, .combositem10img, .combositem11img, .combositem12img, .combositem13img, .combositem14img, .combositem15img, .combositem16img, .combositem17img, .combositem18img, .combositem19img, .combositem20img, .combositem21img, .combositem22img, .combositem23img, .combositem24img, .combositem25img, .combositem26img, .combositem27img, .combositem28img, .combositem29img, .combositem30img, .combositem31img, .combositem32img, .combositem33img, .combositem34img, .combositem35img, .combositem36img, .combositem37img, .combositem38img, .fritasitem1img, .fritasitem2img, .fritasitem3img, .bebidasitem1img, .bebidasitem2img, .bebidasitem3img, .bebidasitem4img, .bebidasitem5img, .bebidasitem6img, .bebidasitem7img, .bebidasitem8img, .bebidasitem9img, .bebidasitem10img, .bebidasitem11img, .molhositem1img, .molhositem2img, .molhositem3img, .molhositem4img, .molhositem5img, .molhositem6img, .molhositem7img, .molhositem8img{
+    display: flex;
+    justify-content: center;
+}
+
+#fornecedorestexto{
+    color: white;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 600px;
+    max-width: 600px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#fornecedorestexto h1{
+    width: 600px;
+    max-width: 600px;
+    max-height: 200px;
+}
+#fornecedorestexto h2{
+    width: 600px;
+    max-width: 600px;
+    max-height: 200px;
+}
+#fornecedoresimagem{
+    margin-top: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 650px;
+    width: 650px;
+    height: auto ;
+}
+#fornecedoresimagem h1{
+    max-width: 650px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#fornecedoresimagem img{
+    border: 5px solid yellow;
+    border-radius: 10px;
+    max-width: 500px;
+    min-width: 300px;
+    width: 500px;
+    height: auto;
+}
+#blocofornecedores{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pecaja{
+    background-color: yellow;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.pecaja:hover{
+    background-color: orange;
+}
+#pecaja{
+    font-size: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 85px;
+    height: 35px;
+    padding-top: 4px;
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1212px){
+    #blocofornecedores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     #fornecedorestexto{
+        margin-left: 0px;
+        max-width: 1212px;
+        max-height: 300px;
+     }
+     #fornecedoresimagem{
+        margin-top: 0px;
+        max-width: 574px;
+    }
+}
+@media screen and (max-width: 974px){
+    .menuR{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 574px){
+    #fornecedorestexto{
+        font-size: 13px;
+        max-width: 574px;
+        max-height: 300px;
+        margin-top: 0;
+    }
+    .pecaja{
+        width: 100px;
+        height: 40px;
+    }
+    #pecaja{
+        font-size: 15px;
+    }
+    #fornecedoresimagem h1{
+        max-width: 574px;
+        font-size: 25px;
+    }
+    #fornecedoresimagem img{
+        border: 3px solid yellow;
+        border-radius: 10px;
+        max-width: 300px;
+        width: 300px;
+        height: auto;
+    }
+    #fornecedoresimagem{
+        margin-top: 0px;
+        max-width: 574px;
+        width: 574px;
+        height: auto ;
+    }
+
+}
+@media screen and (max-width: 385px){
+    #fornecedorestexto{
+        font-size: 10px;
+        max-width: 385px;
+        max-height: 250px;
+        margin-top: 0;
+    }
+    .pecaja{
+        width: 100px;
+        height: 40px;
+    }
+    #pecaja{
+        font-size: 15px;
+    }
+    #fornecedoresimagem h1{
+        max-width: 385px;
+        font-size: 25px;
+    }
+    #fornecedoresimagem img{
+        max-width:180px;
+        width: 180px;
+        height: auto;
+    }
+    #fornecedoresimagem{
+        margin-top: 0px;
+        max-width: 385px;
+        width: 385px;
+        height: auto ;
+    }
+    
+}
